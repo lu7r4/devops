@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.teamcity {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.title_block {
+    font-family: 'Jost', sans-serif;
+    font-size: 4.6rem;
+    line-height: 1.1;
+    font-weight: bold;
+    text-align: center;
+    margin: 3%;
+}
+.teamcity_text_title {
+    padding: 1% 7%;
+    color: #000;
+    font-size: 1.6em;   
+    font-weight: bold; 
+}
+.title_active {
+    border-bottom: 2px solid rgb(76, 137, 249);
+    color:rgb(76, 137, 249);
+    font-size: 1.6em;
+    font-weight: bolder; 
+}
+.teamcity_text_p {
+    padding-top: 2%;
+    font-size: 1.5em;
+    border-top: 2px solid rgb(76, 137, 249);
+    height: 100%;
+    width: 100%;
+}
