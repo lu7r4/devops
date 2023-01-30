@@ -9,6 +9,8 @@
     <title>DevOps</title>
 </head>
 <body>
+
+
     
 <section id="knowledge">
     <div class="container">
@@ -37,6 +39,37 @@
         <li>service account\role\clusterrole\role bindings</li>
         <li>priorityclass</li>
         <li>pod disruption budget</li>        
+    </ul>
+</div>
+<!--postgres-->
+<div class="title_block">
+    postgres
+</div><a href=""></a>
+<div class="postgres">
+    <div class="title_active teamcity_text_title title_7">
+        Что нужно понимать
+    </div>
+    <div class="teamcity_text_title title_8">
+        Что нужно уметь
+    </div>
+    <div class="teamcity_text_title title_9">
+        Материалы
+    </div>
+</div>
+<div class="teamcity_text postgres_text_p">
+    <ul>
+        <li>WAL-логи (что такое, зачем нужны, WAL-levels)</li>
+        <li>Схемы (что такое, зачем нужны)</li>
+        <li>Основы SQL (базовы запросы SELECT\INSERT\UPDATE\DELETE + понимание ORDER\LIMIT и JOIN в базовом виде (на простых примерах))</li>
+        <li>Репликация (как работает, как смотреть отставание, что такое replication slots)</li>
+        <li>Фоновые процессы (autovacuum, checkpoint, bgwriter)</li>
+        <li>Базовое понимание индексов (что такое, зачем нужны, как смотреть)</li>
+        <li>Базовое понимание транзакций</li>
+        <li>Как работают миграции схем в БД</li>
+        <li>Знать для чего нужен pg_stat_statements и что там можно увидеть</li>
+        <li>Понимать все, что есть в мониторинге</li>
+        <li>Как снимаются бекапы (хорошо расписано в документации barman https://docs.pgbarman.org/release/2.18/ )</li>
+        <li>Миграции схемы БД (pgmigrate)</li>
     </ul>
 </div>
 <!--terraform-->
@@ -110,7 +143,49 @@
         <li>понимание как должен выглядеть хороший пайлайн</li>
     </ul>
 </div>
-
+<!--rabbitmq-->
+<div class="title_block">
+    rabbitmq
+</div>
+<div class="rabbitmq">
+    <div class="title_active teamcity_text_title title_3">
+        Что нужно понимать
+    </div>
+    <div class="teamcity_text_title title_4">
+        Что нужно уметь
+    </div>
+</div>
+<div class="teamcity_text rabbitmq_text_p">
+    <ul>
+        <li>Exchanges</li> 
+        <li>Queues</li> 
+        <li>Bindings</li> 
+        <li>Как происходит миграция схемы</li>
+        <li>Как настраивается отказоустойчивость в кластере</li>
+    </ul>
+</div>
+<!--graylog-->
+<div class="title_block">
+    graylog
+</div>
+<div class="graylog">
+    <div class="title_active teamcity_text_title title_5">
+        Что нужно понимать
+    </div>
+    <div class="teamcity_text_title title_6">
+        Что нужно уметь
+    </div>
+</div>
+<div class="teamcity_text graylog_text_p">
+    <ul>
+        <li>input</li>
+        <li>index</li>
+        <li>stream</li>
+        <li>alerts</li>
+        <li>graylog query language basic</li>
+        <li>архитектуру</li>
+    </ul>
+</div>
             </div>
         </div>
     </div>
