@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.teamcity {
+.teamcity, .understanding {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
@@ -22,16 +22,18 @@
     font-size: 1.6em;   
     font-weight: bold; 
 }
+.once_title {
+    padding: 1% 7%;
+}
 .title_active {
     border-bottom: 2px solid rgb(76, 137, 249);
     color:rgb(76, 137, 249);
     font-size: 1.6em;
     font-weight: bolder; 
 }
-.teamcity_text_p {
-    padding-top: 2%;
+.teamcity_text_p, .text_p {
+    padding: 2% 0;
     font-size: 1.5em;
     border-top: 2px solid rgb(76, 137, 249);
-    height: 100%;
     width: 100%;
 }

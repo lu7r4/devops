@@ -12,8 +12,8 @@ button1.addEventListener('click', () => {
     <li>понимание для чего нужны pipeline'ы и как они выглядят</li>
     <li>понимание как должен выглядеть хороший пайлайн</li>
 </ul>`;
-classTitle2.classList.remove('teamcity_text_title_active');
-    classTitle1.classList.add('teamcity_text_title_active');
+classTitle2.classList.remove('title_active');
+    classTitle1.classList.add('title_active');
     
 }
 )
@@ -23,8 +23,8 @@ button2.addEventListener('click', () => {
     <li>умение работать с какой-либо CI/CD системой</li>
     <li>писать пайплайны</li>
     </ul>`
-    classTitle1.classList.remove('teamcity_text_title_active');
-    classTitle2.classList.add('teamcity_text_title_active');
+    classTitle1.classList.remove('title_active');
+    classTitle2.classList.add('title_active');
 }
 )
 
